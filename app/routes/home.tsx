@@ -15,7 +15,7 @@ export function headers() {
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen py-16 flex-col items-center justify-center">
+    <div className="flex py-16 flex-col items-center justify-center">
       <h1 className="text-4xl font-thin">mindscratch.dev</h1>
       <main className="mt-16 space-y-8 font-extralight max-w-prose">
         <p>
