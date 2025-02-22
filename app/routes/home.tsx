@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="flex px-4 py-16 flex-col items-center justify-center">
       <h1 className="text-4xl font-thin">mindscratch.dev</h1>
-      <main className="mt-16 space-y-6 md:space-y-8 font-extralight max-w-prose">
+      <main className="mt-16 space-y-6 md:space-y-8 font-extralight max-w-prose text-lg">
         <p>
           Great developers aren't born. They're forged through countless{" "}
           <strong>"aha" moments</strong>.
