@@ -15,9 +15,9 @@ export function headers() {
 
 export default function Home() {
   return (
-    <div className="flex py-16 flex-col items-center justify-center">
+    <div className="flex px-4 py-16 flex-col items-center justify-center">
       <h1 className="text-4xl font-thin">mindscratch.dev</h1>
-      <main className="mt-16 space-y-8 font-extralight max-w-prose">
+      <main className="mt-16 space-y-6 md:space-y-8 font-extralight max-w-prose">
         <p>
           Great developers aren't born. They're forged through countless{" "}
           <strong>"aha" moments</strong>.
@@ -27,7 +27,7 @@ export default function Home() {
           apps.
         </p>
         <p>Moments like</p>
-        <ul className="pl-8 list-disc space-y-4 list-inside -mt-4">
+        <ul className="pl-4 md:pl-8 list-disc space-y-4 list-inside -mt-4">
           <li>
             when you discover <strong>prop drilling</strong> isn't a code smell
             rather a sign your component hierarchy doesn't match your data flow.
@@ -66,7 +66,7 @@ export default function Home() {
           It's about the journey from writing code to understanding systems.
         </p>
         <p>We will explore</p>
-        <ul className="-mt-4 pl-8 list-disc space-y-4 list-inside">
+        <ul className="-mt-4 pl-4 md:pl-8 list-disc space-y-2 md:space-y-4 list-inside">
           <li>why some React components are more reusable than others</li>
           <li>how TypeScript can shape better architecture</li>
           <li>when performance optimization actually matters</li>
