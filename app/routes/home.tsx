@@ -7,6 +7,12 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
+export function headers() {
+  return {
+    "Cache-Control": "max-age=300, s-maxage=3600, stale-while-revalidate=300",
+  };
+}
+
 export default function Home() {
   return (
     <div className="flex h-screen items-center justify-center">
